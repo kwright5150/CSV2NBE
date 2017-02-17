@@ -29,7 +29,7 @@ for row in range(1, sheets[0].nrows):
 
 # Print results
     text_file.write('\n')
-    text_file.write('results|172.16.23|')
+    text_file.write('results|ip_address|')
     text_file.write (sheets[0].cell_value(row, 4))
     text_file.write('|')
     text_file.write (str(sheets[0].cell_value(row, 6)))
